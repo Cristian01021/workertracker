@@ -1,24 +1,6 @@
 const inquirer = require("inquirer");
-const mysql = require("mysql2");
+// require inquirer 
 require("console.table");
-
-// // Create a MySQL connection
-// const db = mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: '2001', // Replace with your MySQL password
-//   database: 'company_db'
-// });
-
-// // Connect to the MySQL server
-// db.connect((err) => {
-//   if (err) {
-//     console.error('Error connecting to the database. Please make sure MySQL server is running.');
-//     return;
-//   }
-//   console.log('Connected to the database.');
-//   init();
-// });
 
 const employeeDb = require ('./db/queries');
 
